@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # 🔗 Replace this with your actual API URL later
-API_URL = "https://your-api-url/recommend"
+API_URL = "https://asrcoddeploy-anime-recomm-api.hf.space/recommend"
 
 
 def recommend_from_api(anime_name):
